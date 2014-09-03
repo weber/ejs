@@ -1,8 +1,6 @@
 # EJS
 
-Embedded JavaScript templates.
-
-[![Build Status](https://travis-ci.org/visionmedia/ejs.png)](https://travis-ci.org/visionmedia/ejs)
+Embedded JavaScript templates with helpers.
 
 ## Installation
 
@@ -19,6 +17,7 @@ Embedded JavaScript templates.
   * Filter support for designer-friendly templates
   * Includes
   * Client-side support
+  * Helpers
   * Newline slurping with `<% code -%>` or `<% -%>` or `<%= code -%>` or `<%- code -%>`
 
 ## Example
