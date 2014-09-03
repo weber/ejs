@@ -50,7 +50,7 @@ Embedded JavaScript templates with helpers.
   - `close`           Closing tag, defaulting to "%>"
   - *                 All others are template-local variables
 
-## Helpers
+## Helpers(beta)
 linkTo, linkToRemote, linkToIfNotCurrent, metaTag, inputTag, textareaTag, labelTag,
 submitTag, buttonTag, optionTag, selectTag, icon, imageTag, anchor
 
