@@ -52,10 +52,10 @@ Embedded JavaScript templates.
   - *                 All others are template-local variables
 
 ## Helpers
-
+```
    <%- linkTo('about','/about') %>
    // => <a href="/about">about</a>
-
+```
 
 ## Includes
 
