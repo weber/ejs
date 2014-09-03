@@ -51,9 +51,30 @@ Embedded JavaScript templates with helpers.
   - *                 All others are template-local variables
 
 ## Helpers
+linkTo, linkToRemote, linkToIfNotCurrent, metaTag, inputTag, textareaTag, labelTag,
+submitTag, buttonTag, optionTag, selectTag, icon, imageTag, anchor
+
 ```
-   <%- linkTo('about','/about') %>
-   // => <a href="/about">about</a>
+    <%- linkTo('about','/about') %>
+    // => <a href="/about">about</a>
+
+    <%- linkToRemote('blog','/blog') %>
+    <%- linkToIfNotCurrent('home','/home') %>
+
+    <%- metaTag('description','sdsdsdsds') %>
+    <%- metaTag('keywords',"Ключивые слова") %>
+
+    <%- inputTag({'type':"text",'value':'hello'}) %>
+    <%- textareaTag('saasas') %>
+    <%- labelTag('saasas',{'class':'my'}) %>
+    <%- submitTag('submit',{'class':'my'}) %>
+    <%- buttonTag('button',{'class':'my'}) %>
+
+    <%- optionTag('sasasasass') %>
+    <%- selectTag('<option>text</option><option>text2</option>') %>
+    <%- icon('home') %>
+    <%- imageTag('/public/images/manager/cd-arrow.svg') %>
+    <%- anchor('anchor') %>
 ```
 
 ## Includes
