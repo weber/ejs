@@ -1,5 +1,7 @@
 # EJS
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/weber/ejs.svg)](https://greenkeeper.io/)
+
 Embedded JavaScript templates with helpers.
 
 ## Installation
